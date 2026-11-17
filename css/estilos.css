@@ -153,6 +153,10 @@ footer .wrap{padding-top:18px;padding-bottom:28px}
 
 @media (max-width: 900px){
 
+    .hero-logo{
+        top:8px;
+    }
+
     .hero-logo-left{
         left:10px;
     }
@@ -162,10 +166,24 @@ footer .wrap{padding-top:18px;padding-bottom:28px}
     }
 
     .hero-logo img{
-        width:80px;
+        width:60px;
         height:auto;
     }
 
+    .hero-center{
+        padding-top:40px;
+    }
+}
+
+@media (max-width: 480px){
+
+    .hero-logo img{
+        width:48px;
+    }
+
+    .hero-center{
+        padding-top:28px;
+    }
 }
 
 .footer-marcas{
